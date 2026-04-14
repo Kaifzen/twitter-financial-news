@@ -1,0 +1,15 @@
+[project]
+name = "twitter-financial-news"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "tensorflow>=2.21.0",
+    "wordcloud>=1.9.6",
+]
