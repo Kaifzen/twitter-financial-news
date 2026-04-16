@@ -5,11 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "matplotlib>=3.10.8",
-    "numpy>=2.2.6",
-    "pandas>=2.3.3",
-    "scikit-learn>=1.7.2",
-    "seaborn>=0.13.2",
-    "tensorflow>=2.21.0",
-    "wordcloud>=1.9.6",
+    "ipykernel>=7.2.0",
+    "matplotlib==3.8.4",
+    "numpy==1.26.4",
+    "pandas==2.2.2",
+    "scikit-learn==1.4.2",
+    "seaborn==0.13.2",
+    "tensorflow==2.15.0; sys_platform == 'win32'",
+    "wordcloud==1.9.3",
 ]
+
+[tool.uv]
+required-environments = ["sys_platform == 'win32' and platform_machine == 'AMD64'"]
